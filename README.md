@@ -25,3 +25,4 @@ Ayrıca şube müdürü ve il emniyet müdürü genel itibari ile personeller ü
 
 Daha sonra denetlenen memurların ceza gerektiren bir konuya sebebiyet vermeleri anlaşılırsa ceza numarası cezai kesen personel ceza kesilen personel ve ceza yaptırımları olmak üzere gerekli işlemler yapılır
 
+[Bir öznitelik belirtin (1).pdf](https://github.com/user-attachments/files/17623386/Bir.oznitelik.belirtin.1.pdf)
