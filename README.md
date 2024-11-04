@@ -1,7 +1,9 @@
 # Proje Ekibindeki Kişiler:
-Atakan Ünal (210260138)
+Atakan Ünal (210260138) 
+
 Ahmet Dağıstanlı (230260198)
-Mert Demirkol (230260200)
+
+Mert Demirkol (230260200) 
 
 # Proje Tanımı:
 İl emniyet müdürü bir çok şube kendisine bağlı olduğu için şube kodlarını oluşturup şubeleri isimlendirip her şubenin müdürünün kendi bilgisi personel sayısı şube içinde bulunan amirlerin bilgisi yapılacak operasyonların kodu ve yakalanan suçlularla alakalı tüm verilerin tutulduğu şubenin de başında olduğundan dolayı personel ve şube işlemlerini yapabildiği gibi gelen ihbarların tamamını değerlendiren birimin de kendisine bağlı olması nedeniyle gelen ihbarların nasıl işlendiği ya da nasıl birimlerce değerlendirildiğini düzenlendiği makamdır
