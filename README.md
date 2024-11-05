@@ -5,7 +5,9 @@ Ahmet Dağıstanlı (230260198)
 
 Mert Demirkol (230260200) 
 
-#Varlıklar ve Özellikleri:
+
+# Varlık ve İlişkileri:
+
 1=>emniyet müdürlüğü
 İl emniyet müdürü id:il emniyet müdürene emniyetçe verilmiş id numarası
 Şube kodu (primarykey) :kendisine bağlı tüm şubelerin kendine özgü kodu vardır
@@ -75,7 +77,8 @@ Ceza kesilen personel id:ceza kesilen personele emniyetçe verilmiş id numaras�
 Ceza konusu : personel işlediği suçun konusu gerekli cezanın adı
 Ceza yaptırımı: mevcut Ceza’nın kanunca  karşılığı gelen yaptırım
 
-#Gereksinimler ve İlişkiler:
+# Gereksinim ve İlişkiler:
+
 İl emniyet müdürü bir çok şube kendisine bağlı olduğu için şube kodlarını oluşturup şubeleri isimlendirip her şubenin müdürünün kendi bilgisi personel sayısı şube içinde bulunan amirlerin bilgisi yapılacak operasyonların kodu ve yakalanan suçlularla alakalı tüm verilerin tutulduğu şubenin de başında olduğundan dolayı personel ve şube işlemlerini yapabildiği gibi gelen ihbarların tamamını değerlendiren birimin de kendisine bağlı olması nedeniyle gelen ihbarların nasıl işlendiği ya da nasıl birimlerce değerlendirildiğini düzenlendiği makamdır. il emniyet müdürlüğünde ihbarların değerlendirildiği tek bir birim varken buraya birçok ihbar gelir ve birden çoğa ilişki vardır. İhbarlar değerlendirilirken bir ihbara birden çok operasyon gerçekleştirilebilir.ooerasyonlar da birden çok kez olabilirken birden çok suçluya da yapılabildiği için çoktan çoğa ilişki vardır.
 
 Şube müdürü kendi şubesi yönünden bağlı olduğu il emniyet müdürlüğünden talimat alırken şube müdürü sisteminde yakaladığı suçlunun bağlı olduğu müdürün kendisine bağlı emniyet amiri ve diğer personellerle birlikte genel itibari ile aldığı emirler doğrultusunda hareket eder. Şube müdürü il emniyet müdüründen talimat alır.burada birden çoğa ilişki vardır aralarında.
@@ -98,6 +101,7 @@ Daha sonra denetlenen memurların ceza gerektiren bir konuya sebebiyet vermeleri
 Sonuç olarak yapmış olduğumuz bu projede amacımız en tepedeki il emniyet müdüründen personele varana kadar tüm denetleme mekanizmaları sağlanarak hem personelin denetlemelerle ceza gerektirecek suça karışmasını engellemek ya da karıştı ise bununla alakalı gerekli işlemi  yapar; suç ve suça karışan insanlarla alakalı genel itibarıyla veriler saklanarak ilerleyen süreçte aynı kişilerin benzer konulara karışıp karışmadığını doğru bir şekilde tespiti sağlamış olacağız.
 
 # E_R Diyagramı
+
 Resmin net görünümü en alttaki pdf içerisindedir.
 
 
