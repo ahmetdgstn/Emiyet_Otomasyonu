@@ -99,11 +99,6 @@ Adli sicil kaydı
 
 Tablo İlişkileri
 1. İL_EMNİYET_MÜDÜRLÜĞÜ - ŞUBELER: Bir İl Emniyet Müdürlüğü birden fazla şubeye sahip olabilir.(1..*)
-Create Table ile veritabanı şemasını oluşturma:
-CREATE TABLE Il_Emniyet_Mudurlugu (
-Il_Em_Mudur_ID INT PRIMARY KEY,
-Bulundugu_Sehir NVARCHAR(100) NOT NULL,
-Personel_sayisi INT NOT NULL); 
 2. ŞUBELER - PERSONEL: Bir şubede birden fazla personel çalışabilir.(1..*)
 3. PERSONEL - DENETİM: Bir personel birden fazla denetim gerçekleştirebilir.(1..*)
 4. OPERASYON - ŞUBELER: Bir operasyon bir şubeye bağlıdır.(1..1)
