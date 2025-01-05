@@ -97,14 +97,17 @@ Suç türü
 
 Adli sicil kaydı
 
-Tablo İlişkileri
-1. İL_EMNİYET_MÜDÜRLÜĞÜ - ŞUBELER: Bir İl Emniyet Müdürlüğü birden fazla şubeye sahip olabilir.(1..*)
-2. ŞUBELER - PERSONEL: Bir şubede birden fazla personel çalışabilir.(1..*)
-3. PERSONEL - DENETİM: Bir personel birden fazla denetim gerçekleştirebilir.(1..*)
-4. OPERASYON - ŞUBELER: Bir operasyon bir şubeye bağlıdır.(1..1)
-5. SUÇLU - OPERASYON: Bir operasyonda birden fazla suçlu yer alabilir.(1..*)
-6. CEZA - PERSONEL: Bir personel birden fazla ceza kesebilir.(1..*)
-7. İL_EMNİYET_MÜDÜRLÜĞÜ - İHBAR: Bir İl Emniyet Müdürlüğü birden fazla ihbar alabilir.(1..*)
+# Tablo İlişkileri
+1. İL_EMNİYET_MÜDÜRLÜĞÜ - ŞUBELER: Bir İl Emniyet Müdürlüğü birden fazla şubeye sahip olabilir.(1-N)
+2. İL_EMNİYET_MÜDÜRLÜĞÜ - DENETİM: Bir İl Emniyet Müdürlüğü birden fazla denetim yapabilir.(1-N)
+3. İL_EMNİYET_MÜDÜRLÜĞÜ - İHBAR: Bir İl Emniyet Müdürlüğü hiç veya birden fazla ihbar alabilir.(1-N)
+4. ŞUBELER - PERSONEL: Bir şubede birden fazla personel çalışabilir.(1-N)
+5. ŞUBELER - OPERASYON : Bir şube birden fazla operasyon yapabildiği gibi bir operasyona birden fazla şube katılabilir.(N-M)
+6. ŞUBELER - DENETİM : Bir şube birden fazla denetim yapabildiği gibi bir denetimde birden fazla şube bulunabilir.(N-M)
+7. PERSONEL - DENETİM: Bir personel birden fazla denetim gerçekleştirebilir.(1-N)
+8. SUÇLU - OPERASYON: Bir operasyonda birden fazla suçlu yakalanabilir.(1-N)
+9. CEZA - PERSONEL: Bir personel birden fazla ceza kesebilir.(1-N)
+10. DENETİM - CEZA: Bir denetimde birden fazla ceza oluşturulabilir.(1-N)
 
 # E_R Diyagramı
 
