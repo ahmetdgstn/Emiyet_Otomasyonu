@@ -111,8 +111,6 @@ Adli sicil kaydı
 
 # E_R Diyagramı (UML Notasyonuyla)
 
-Resmin net görünümü en alttaki pdf içerisindedir.
-
 
 ![image](https://github.com/user-attachments/assets/9296a0eb-88cd-4ba8-ac90-126b40757ca7)
 
