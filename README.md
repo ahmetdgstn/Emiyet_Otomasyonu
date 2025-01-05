@@ -115,9 +115,5 @@ Adli sicil kaydı
 ![image](https://github.com/user-attachments/assets/9296a0eb-88cd-4ba8-ac90-126b40757ca7)
 
 
-# Veri tabanı şemasının SQL Server’de oluşturulması
-Create Table ile veritabanı şemasını oluşturma:
-
-
 
 
