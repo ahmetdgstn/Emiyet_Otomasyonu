@@ -9,11 +9,16 @@ Mert Demirkol (230260200)
 # Varlık ve İlişkileri:
 
 1.İl Emniyet Müdürlüğü
+
 Emniyet Müdürlüğünün en tepesinde bulunan makam ile bulunduğu şehir ve merkezdeki personel
 sayısının bilgisini verir. 
+
 İl Emn. Müd. ID (PK)
+
 Bulunduğu Şehir
+
 Personel Sayısı
+
 2.Şubeler
 Emniyet Müdürlüğünce görevleri icabı isimlendirilmiş şubelere ve kodlara dair bilgiler verir.
 Şube Kodu (PK)
