@@ -20,50 +20,83 @@ Bulunduğu Şehir
 Personel Sayısı
 
 2.Şubeler
+
 Emniyet Müdürlüğünce görevleri icabı isimlendirilmiş şubelere ve kodlara dair bilgiler verir.
+
 Şube Kodu (PK)
+
 Şube Adı
+
 3.Personel
-Personelin özlük bilgileri, görev başlama ve daha önceki almış olduğu görevlerin saklanmış
-olduğu verilerdir.
+
+Personelin özlük bilgileri, görev başlama ve daha önceki almış olduğu görevlerin saklanmış olduğu verilerdir.
+
 Personel ID (PK)
+
 Personel adı soyadı
+
 Personelin göreve başlama tarihi
+
 Personelin önceki görevleri
+
 4.Denetim
-Emniyet içinde gerçekleşen geçmişe yönelik kontroller yapılırken bu denetlemenin silsile
-yoluyla takibi yapılmış olur. Ayrıca denetleme mekanizmasının çalışması sağlanmış olur.
+
+Emniyet içinde gerçekleşen geçmişe yönelik kontroller yapılırken bu denetlemenin silsile yoluyla takibi yapılmış olur. Ayrıca denetleme mekanizmasının çalışması sağlanmış olur.
+
 Denetim Kodu (PK)
+
 Denetleyen personel ID (FK)
+
 Denetlenen personel ID (FK)
+
 5.Ceza
-Proje Gereksinimleri
-Gerekli işlemi yapan personel bilgisi, ceza bilgileri ve yaptırımların kaydedildiği veriler
-hakkında bilgi verir. 
+
+Gerekli işlemi yapan personel bilgisi, ceza bilgileri ve yaptırımların kaydedildiği veriler hakkında bilgi verir. 
+
 Ceza numarası(PK)
+
 Ceza kesen personel id(FK)
+
 Ceza kesilen kisi id
+
 Ceza konusu
+
 Ceza kesilme tarihi
+
 Ceza Yaptırım
+
 6.İhbar
-Karşılaşılan ihlalle alakalı emniyet müdürlüğüne yapılan ihbar ve ihbara dair bilgilerin
-tutulduğu veri kısmı
+
+Karşılaşılan ihlalle alakalı emniyet müdürlüğüne yapılan ihbar ve ihbara dair bilgilerin tutulduğu veri kısmı
+
 İhbar ID (PK)
+
 İhbar konusu
+
 Arayan tel no
+
 7.Operasyon
-Karşılaşılan suça yönelik tasarlanan müdahaleyi özel isimle ve numarayla saklamaya yarayan
-veri kısmıdır.
+
+Karşılaşılan suça yönelik tasarlanan müdahaleyi özel isimle ve numarayla saklamaya yarayan veri kısmıdır.
+
 Operasyon ID (PK)
+
 Operasyon adı
+
 Operasyon tarihi
+
 8.Suçlu
+
 Adli işlem yapılan kişilerle alakalı gerekli bilgilerin tutulduğu veri kısmıdır.
+
 Suçlu ID (PK)
+
 Suçlu adı soyadı
+
 Suç türü
+
 Adli sicil kaydı
+
 Tablo İlişkileri
 1. İL_EMNİYET_MÜDÜRLÜĞÜ - ŞUBELER: Bir İl Emniyet Müdürlüğü birden fazla şubeye sahip olabilir.(1..*)
 Create Table ile veritabanı şemasını oluşturma:
